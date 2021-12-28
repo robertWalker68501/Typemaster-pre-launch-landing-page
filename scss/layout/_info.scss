@@ -1,0 +1,66 @@
+// Bring in colors
+@use "../abstracts/colors" as *;
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 128px;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    max-height: 323px;
+    width: 255px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    h3 {
+      color: $color-blue-900;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 24px;
+      padding-right: 40px;
+      text-transform: uppercase;
+    }
+
+    p {
+
+    }
+  }
+
+  &-icon {
+    background-color: $color-orange-900;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    margin-bottom: 48px;
+    width: 65px;
+
+    &-1 {
+      height: 20px;
+      width: 25px;
+    }
+
+    &-2 {
+      height: 28px;
+      width: 18px;
+    }
+
+    &-3 {
+      height: 20px;
+      width: 32px;
+    }
+
+    &-4 {
+      height: 32px;
+      width: 32px;
+    }
+  }
+}

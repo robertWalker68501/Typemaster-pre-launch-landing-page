@@ -1,0 +1,56 @@
+// Bring in colors
+@use "../abstracts/colors" as *;
+
+.description {
+  display: flex;
+  margin-bottom: 168px;
+  position: relative;
+
+  .background-img {
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    left: -276px;
+    width: 255px;
+  }
+
+  .image-one {
+    background-image: url("../images/desktop/image-phone-and-keyboard.jpg");
+    background-color: $color-orange-900;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+    border-radius: 20px;
+    height: 480px;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 255px;
+  }
+
+  .image-two {
+    border-radius: 20px;
+    height: 480px;
+    margin-right: 125px;
+    overflow: hidden;
+    width: 445px;
+  }
+
+  .content {
+    padding-top: 110px;
+    width: 255px;
+
+    h2 {
+      color: $color-blue-900;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 36px;
+      margin-bottom: 27px;
+      text-transform: uppercase;
+    }
+
+    p {
+
+    }
+  }
+}

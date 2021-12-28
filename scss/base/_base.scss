@@ -1,10 +1,25 @@
 @use "../abstracts/fonts" as *;
 
 body {
-  box-sizing: border-box;
   color: $default-font-color;
   font-family: $default-font-family;
   font-size: $default-font-size;
   font-weight: $default-font-weight;
   line-height: $default-line-height;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1440px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
