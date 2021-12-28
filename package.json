@@ -1,0 +1,23 @@
+{
+  "name": "typemaster-pre-launch-landing-page",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenges help you improve coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded scss:css",
+    "sass-prod": "sass --no-source-map --style=compressed scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertWalker68501/Typemaster-pre-launch-landing-page.git"
+  },
+  "author": "Robert Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertWalker68501/Typemaster-pre-launch-landing-page/issues"
+  },
+  "homepage": "https://github.com/robertWalker68501/Typemaster-pre-launch-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.45.1"
+  }
+}

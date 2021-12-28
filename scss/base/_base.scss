@@ -1,0 +1,10 @@
+@use "../abstracts/fonts" as *;
+
+body {
+  box-sizing: border-box;
+  color: $default-font-color;
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+}
